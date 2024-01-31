@@ -3,11 +3,13 @@ module.exports = {
   mode: 'jit',
   content: [
     './index.php',
-    './index.html'
+    './index.html',
+    './**/*.php'
   ],
   purge: [
     './*.html',
-    './*.php'
+    './*.php',
+    './**/*.php'
   ],
   theme: {
     color: {
