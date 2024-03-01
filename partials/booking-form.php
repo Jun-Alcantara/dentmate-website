@@ -1,9 +1,11 @@
-<section class="bg-white mt-[90px]">
+<section id="booking-form-section" class="bg-white">
   <div class="max-w-screen-xl mx-auto py-[50px]">
     <h3 class="text-4xl font-semibold text-[#083d67]">Book Now</h3>
     <div class="mt-2 flex gap-[25px]">
       <div class="basis-[50%]">
-        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque culpa doloribus sint.</p>
+        <p class="mb-3">
+          Experience Dental Care at its Finest! Visit and book at Dentmate Dental Clinic of your choice! 
+        </p>
         <div class="mb-3">
           <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900">First name:</label>
           <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"required>

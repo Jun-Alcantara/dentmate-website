@@ -30,14 +30,14 @@
       </div>
     </section>
 
-    <section>
-      <div class="max-w-screen-xl mx-auto gap-[60px] py-[90px] pb-[0px]">
-        <div class="flex gap-[20px] mb-[80px]">
-          <div class="basis-3/12">
-            <img class="aspect-square object-cover" src="./images/doctors/doc-justin.jpeg" alt="Doc Justin">
+    <section class="bg-white py-[80px]">
+      <div class="max-w-screen-xl mx-auto">
+        <div class="flex gap-[20px]">
+          <div class="basis-3/12" data-aos="fade-right">
+            <img class="aspect-square object-cover shadow-xl" src="./images/doctors/doc-justin.jpeg" alt="Doc Justin">
           </div>
-          <div class="basis-9/12">
-            <h3 class="text-3xl font-semibold mb-5">Doctor Justin</h3>
+          <div class="basis-9/12" data-aos="fade-left">
+            <h3 class="text-3xl font-semibold mb-5 text-primary">Doctor Justin Dimaculangan</h3>
             <p class="mb-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic deleniti optio, voluptas commodi architecto reiciendis nostrum beatae laudantium in laborum excepturi voluptate velit voluptatum. Quaerat quia eaque quam tempora vero.
             </p>
@@ -47,11 +47,26 @@
             </p>
           </div>
         </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="max-w-screen-xl mx-auto gap-[60px] py-[50px] pb-[70px]">
+        <h3 class="text-4xl text-center font-semibold text-primary">Our Doctors</h3>
         <div class="flex flex-wrap justify-center">
-          <?php for ($i = 1; $i <= 20; $i++) { ?>
-            <div class="basis-[25%] p-[20px]">
-              <img class="aspect-square rounded-full" src="./images/doctors/doc-placeholder.png" alt="Placeholder">
+          <?php for ($i = 1; $i <= 16; $i++) { ?>
+            <div class="basis-1/4 p-3">
+              <div class="doctor-avatar bg-white rounded-md flex flex-col shadow cursor-pointer overflow-hidden">
+                <div class="">
+                  <img class="aspect-square object-cover" src="./images/doctors-avatar/doc<?=$i?>.jpeg" alt="">
+                </div>
+                <div class=" flex justify-center items-center p-3">
+                  <div>
+                    <h3 class="text-center text-primary font-bold">Doctor Name</h3>
+                    <h5 class="text-center ">Pasig Branch</h5>
+                  </div>
+                </div>
+              </div>
             </div>
           <?php } ?>
         </div>

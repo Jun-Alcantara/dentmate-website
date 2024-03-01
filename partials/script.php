@@ -5,11 +5,17 @@
   AOS.init();
 
   $('#banner-slider').slick({
-      arrows: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
 
   $('#banner-slider-2').slick({
-  arrows: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    // dots: true,
+    fade: true,
   });
 
   $('#booking-date-picker').slick({
